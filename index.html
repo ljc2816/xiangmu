@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/runner.js"></script>
+		<script src="js/3.5.0jquery.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/new_file.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<script src="js/rem.js"></script>
+		<script src="js/swiper.min.js"></script>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.top{
+				width: 33.8rem;
+				height: 6.8rem;
+				/*border: 0.1rem solid pink;*/
+				/*margin-top: 1.2rem;*/
+				margin-left: 1.8rem;
+			}
+			.top ul{
+				width: 28.8rem;
+				height: 2.6rem;
+				margin-top: 2.8rem;
+				display: flex;
+				position: relative;
+			}
+			.top li{
+				margin-top: 2.6rem;
+			}
+			.top li input:nth-child(1){
+				width: 28.8rem;
+				height: 2.6rem;
+				border-radius:5rem;
+				border: 0;
+				box-shadow:0.5rem 0.5rem 0.5rem #f6f6f6 ;
+			}
+			.top li input:nth-child(2){
+				position: absolute;
+				width: 22rem;
+				height: 2.6rem;
+				left: 3.6rem;
+				border: 0;
+				line-height: 2.6rem;
+				color: #bebebe;
+				font-size: 1rem;
+			}
+			.top li:nth-child(1) img{
+				width: 1.6rem;
+				height: 1.4rem;
+				position: absolute;
+				top: 3rem;
+				left: 26rem;
+			}
+			.top li:nth-child(2){
+				margin-left: 2rem;
+			}
+			.top li:nth-child(2) img{
+				width: 2rem;
+				height: 2.2rem;
+				margin-top: 0.2rem;
+			}
+			.banner{
+				width: 33.8rem;
+				height: 12.4rem;
+			}
+    		.banner{
+    			width:100%;
+    			height: 10rem;
+    			border-bottom: 0.2rem solid #f2f2f2;
+    		}
+    		.banner ul{
+    			width:33.8rem;
+    			height: 10rem;
+    			margin-left: 1.8rem;
+    			display: flex;
+    			justify-content: space-around;
+    			align-items: center;
+    		}
+    		.banner ul li{
+    			flex: 1;
+    			text-align: center;
+    		}
+    		.banner2{
+    			width: 100%;
+    			height: 18rem;
+    			border-bottom: 0.2rem solid #f2f2f2;
+    			
+    		}
+    		.banner2 div{
+    			margin-left:1.8rem;
+    			width: 33.8rem;
+    			height: 1.6rem;
+    			font-size: 1.6rem;
+    			font-weight: 700;
+    			margin-top: 2rem;
+    		}
+    		.banner2 div span{
+    			float: right;
+    		}
+    		.banner2 ul{
+    			margin-top: 2rem;
+    			display: flex;
+    			justify-content: space-around;
+    		}
+    		.bottom{
+    			width: 100%;
+    			height: 10.6rem;
+    		}
+    		.bottom ul{
+    			margin-top: 2rem;
+    			display: flex;
+    			justify-content: space-around;
+    		}
+    		.bottom div{
+    			margin-left:1.8rem;
+    			width: 33.8rem;
+    			height: 1.6rem;
+    			font-size: 1.6rem;
+    			font-weight: 700;
+    			margin-top: 2rem;
+    		}
+    		.bottom div span{
+    			float: right;
+    		}
+    		 .swiper-container {
+      			width: 100%;
+      			height: 14rem;
+    		}
+			.swiper-wrapper{
+				margin-left: 1.8rem;
+			}
+   			.my-bullet{
+    			width: 0.2rem;
+    			height: 0.02rem;
+    			background: #c2c7ca;
+    			margin-left: 0.02rem;
+    			margin-top: 18rem;
+    		}
+    		.swiper-pagination{
+    			display: flex;
+    			
+    			margin-left: 16.2rem;
+    		}
+    		.my-bullet-active{
+    			background: black;
+    		}
+    		#zhe{
+    			width: 33rem;
+    			height: 10rem;
+    			border: 0.1rem solid pink;
+    			background: white;
+    			position: absolute;
+    			top: 9rem;
+    			left: 1.8rem;
+    			z-index: 10;
+    			display: none;
+    		}
+    		audio{
+    			position: absolute;
+    			bottom: -473px;
+    		}
+		</style>
+	</head>
+	<body>
+		<div class="top">
+			<ul>
+				<li>
+					<input type="text" name="" id="" value="" />
+					<input class="inp" type="text" name="" id="" value="请输入需要查找的内容" />
+					<img class="dian" src="img/er_07.jpg"/>
+				</li>
+				<li><img src="img/san_07.jpg"/></li>
+			</ul>
+		</div>
+		 <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="img/si_11.jpg"/></div>
+      <div class="swiper-slide"><img src="img/si_11.jpg"/></div>
+      <div class="swiper-slide"><img src="img/si_11.jpg"/></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+		<div class="banner">
+			<ul>
+				<li>
+					<p><img src="img/wu_14.jpg"/></p>
+					<p>短信</p>
+				</li>
+				<li>
+					<p><img src="img/liu_16.jpg"/></p>
+					<p>备忘录</p>
+				</li>
+				<li>
+					<p><img src="img/qi_18.jpg"/></p>
+					<p>标签</p>
+				</li>
+				<li>
+					<p><img src="img/ba_20.jpg"/></p>
+					<p>电话</p>
+				</li>
+				<li>
+					<p><img src="img/jiu_22.jpg"/></p>
+					<p>视频</p>
+				</li>
+			</ul>
+		</div>
+		<div class="banner2">
+			<div>猜你喜欢<span>></span></div>
+			<ul>
+				<li>
+					<p><img src="img/shi_03.jpg"/></p>
+					<p>you lovr</p>
+					<p>njnjd</p>
+				</li>
+				<li>
+					<p><img src="img/shiyi_05.jpg"/></p>
+					<p>you lovr</p>
+					<p>njnjd</p>
+				</li>
+				<li>
+					<p><img src="img/shier_07.jpg"/></p>
+					<p>you lovr</p>
+					<p>njnjd</p>
+				</li>
+			</ul>
+		</div>
+		<div class="bottom">
+			<div>歌手信息-推荐<span>></span></div>
+			<ul>
+				<li>
+					<img src="img/shisan_13.jpg"/>
+					
+				</li>
+				<li>
+					<img src="img/shisi_15.jpg"/>
+				</li>
+				<li>
+					<img src="img/shiwu_17.jpg"/>
+				</li>
+				<li>
+					<img src="img/shiliu_19.jpg"/>
+				</li>
+			</ul> 
+		</div>
+		<div id="zhe">
+		
+		</div>
+	</body>
+	<script type="text/javascript">
+		 var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+   		bulletClass : 'my-bullet',
+   		bulletActiveClass: 'my-bullet-active',
+      },
+      loop:true,
+    });
+    $(()=>{
+    	runner(function *(){
+    		let data=yield $.ajax({url:"js/a.json"});
+    		setTimeout(()=>{
+    			$(".dian").click(()=>{
+    				let	$indx=$(".inp").val();
+    				$("#zhe").html("");
+    			for (let i=0; i<data.responseJSON.length; i++) {
+    				if (data.responseJSON[i].ming.indexOf($indx)!=-1 || data.responseJSON[i].ge.indexOf($indx)!=-1) {
+    					$p=$("<p></p>");
+    					$bo=$("<audio></audio>");
+    					$("#zhe").append($p);
+    					$("#zhe").show();
+    					$p.text(data.responseJSON[i].ming+data.responseJSON[i].ge);
+    					$bo.attr("src",data.responseJSON[i].src);
+    					$p.append($bo);
+    				}
+    			}
+    			})
+    			$("#zhe").on("click","p",function(){
+    				let $auo=document.getElementsByTagName("audio");
+    				let $xia=$auo[$(this).index()].src;
+    				let $audiO=$("<audio controls='controls'></audio>");
+    				$audiO.attr("src",$xia);
+    				$("#zhe").append($audiO);
+    			})
+    		},10)
+    	})
+    })
+	</script>
+</html>
